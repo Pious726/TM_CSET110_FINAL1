@@ -1,5 +1,89 @@
+/* Styles for universal items */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+}
+
+*:not(.slick-track):not(.slick-list) {
+    transition: 0.4s;
+}
+
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-weight: 400;
+    color: #777;
+    line-height: 1.7;
+}
+
+.content {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+button.rounded {
+    background: #f69314;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+p.subheading-para {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+/* Styles for text */
+h1, h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #f69314;
+    margin-bottom: 1em;
+    line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.4em;
+    font-weight: 300;
+
+}
+
+h4 {
+    font-size: 1.2em;
+    font-weight: 300;
+    
+}
+
+h5 {
+    font-size: 1em;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    margin: 0 0 1em;
+    
 }
