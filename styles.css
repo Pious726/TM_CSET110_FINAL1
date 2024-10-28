@@ -138,10 +138,10 @@ header ul li a {
 header ul.is-sticky li a {
     color: #000;
 }
-header ul li a.hover, header ul li a.active {
+nav ul li a:hover, header ul li a.active {
     color: #fff;
 }
-header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
+nav ul.is-sticky li a:hover, header ul.is-sticky li a.active {
     color: #f69314;
 }
 
