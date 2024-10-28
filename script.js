@@ -5,14 +5,14 @@ $(function() {
     let navToggle = $("#nav-toggle");
 });
 $('#properties-slider').slick({
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
     nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
     responsive: [{
         breakpoint: 1100,
         settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
         }
@@ -20,7 +20,7 @@ $('#properties-slider').slick({
         {
         breakpoint: 767,
         settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
             infinite: true,
         }
