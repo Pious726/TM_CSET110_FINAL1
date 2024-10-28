@@ -270,3 +270,34 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     margin: 2em auto 0;
     width: 350px;
 }
+
+
+/* Styles for agents section */
+#agents {
+    margin: 4em 0 6em;
+    padding: 0 0 6em;
+    border-bottom: 1px solid #ccc;
+}
+#agents p.subheading-para {
+    width: 50%;
+    margin-bottom: 4em;
+}
+#agents .flex {
+    flex-wrap: wrap;
+    padding: 0;
+}
+#agents .agent-card {
+    width: 32%;
+    background-color: #f0f0f0;
+    margin-bottom: 2em;
+}
+#agents .agent-card img {
+    width: 100%;
+}
+#agents .agent-card h3 {
+    font-family: "Playfair Display", serif;
+    color: #000;
+}
+#agents .agent-card h3, #agents .agent-card p {
+    padding-left: 1em;
+}
