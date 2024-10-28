@@ -381,7 +381,7 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
 #testimonials h2 {
     text-align: center;
 }
-#testimonals-slider .slick-slide {
+#testimonials-slider .slick-slide {
     text-align: center;
 }
 #testimonials-slider blockquote {
@@ -426,9 +426,6 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
 #contact h2 {
     text-align: center;
     margin-bottom: 4rem;
-}
-#contact .flex {
-    margin: 0 6rem;
 }
 #form-content {
     width: 58%;
