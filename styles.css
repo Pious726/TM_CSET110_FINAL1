@@ -299,5 +299,24 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     color: #000;
 }
 #agents .agent-card h3, #agents .agent-card p {
-    padding-left: 1em;
+    padding-left: 1rem;
+}
+
+
+/* Styles for the-best section */
+#the-best {
+    margin: 2em 0;
+}
+#the-best .flex > img {
+    width: 47%;
+}
+#the-best .flex > div {
+    width: 40%;
+}
+#the-best ul {
+    padding-left: 20px;
+    margin-bottom: 4em;
+}
+#the-best ul li {
+    margin: 10px 0;
 }
