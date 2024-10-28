@@ -427,6 +427,9 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     text-align: center;
     margin-bottom: 4rem;
 }
+#contact .flex {
+    margin: 0 6rem;
+}
 #form-content {
     width: 58%;
     background-color: #fff;
