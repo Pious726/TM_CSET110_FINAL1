@@ -260,7 +260,7 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     padding-right: 0;
     padding-left: 10px;
 }
-#properties-slider .details span.baths, #properties-slider .details span.sqft {
+#properties-slider .details span.beds, #properties-slider .details span.baths {
     border-right: 1px solid #888;
 }
 #properties-slider .details address {
