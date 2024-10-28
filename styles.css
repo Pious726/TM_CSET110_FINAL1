@@ -27,7 +27,6 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 button.rounded {
     background: #f69314;
@@ -93,6 +92,9 @@ header {
     position: fixed;
     width: 100%;
     z-index: 3;
+}
+header .flex {
+    align-items: center;
 }
 #logo {
     font-family: "Roboto", Helvetica, sans-serif;
@@ -197,6 +199,9 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     color: #343a40;
     margin-top : 1rem;
 }
+#how-it-works .flex {
+    align-items: center;
+}
 #how-it-works .flex > .div {
     width: 30%;
 }
@@ -286,6 +291,7 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     margin-bottom: 4rem;
 }
 #agents .flex {
+    align-items: center;
     flex-wrap: wrap;
     padding: 0;
 }
@@ -309,6 +315,9 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
 /* Styles for the-best section */
 #the-best {
     margin: 2rem 0;
+}
+#the-best .flex {
+    align-items: center;
 }
 #the-best .flex > img {
     width: 47%;
@@ -338,6 +347,7 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
 }
 #services .flex {
     flex-wrap: wrap;
+    align-items: center;
 }
 #services .flex > div {
     width: 30%;
@@ -482,6 +492,7 @@ footer {
     padding: 8rem 0;
 }
 footer .flex {
+    align-items: center;
     padding-bottom: 6rem;
     border-bottom: 1px solid #777;
 }
