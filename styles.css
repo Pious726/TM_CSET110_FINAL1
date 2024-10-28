@@ -211,9 +211,6 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     margin: 4em 0 8em;
     position: relative;
 }
-#properties h2 {
-    margin-bottom: 3em;
-}
 #properties .content {
     position: relative;
 }
@@ -221,7 +218,7 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     content: "/";
     position: absolute;
     right: 80px;
-    top: 18px;
+    top: 10px;
     color: #999;
 }
 #properties-slider a.slick-arrow {
