@@ -145,3 +145,25 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
 
 
 /* Styles for hero section */
+#header-body {
+    background-image: url('https://onclickwebdesign.com/wp-content/uploads/hero_1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+}
+
+#header-body .fade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(52, 58, 64, 0.9);
+    z-index: 1;
+}
