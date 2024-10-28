@@ -214,10 +214,10 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
 #properties h2 {
     margin-bottom: 3em;
 }
-#properties .container {
+#properties .content {
     position: relative;
 }
-#properties .container:before {
+#properties .content:before {
     content: "/";
     position: absolute;
     right: 80px;
