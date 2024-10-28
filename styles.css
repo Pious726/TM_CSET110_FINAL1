@@ -157,7 +157,6 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     height: 100%;
     width: 100%;
 }
-
 #header-body .fade {
     position: absolute;
     width: 100%;
@@ -166,4 +165,20 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
     left: 0;
     background: rgba(52, 58, 64, 0.9);
     z-index: 1;
+}
+#header-body .hero-text {
+    position: absolute;
+    top: 50%;
+    margin: -75px auto 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    color: #fff;
+    width: 500px;
+    text-align: center;
+}
+#header-body .hero-text p {
+    line-height: 1.5em;
+    font-weight: 300;
+    font-size: 1em;
 }
