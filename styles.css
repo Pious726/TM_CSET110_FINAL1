@@ -47,6 +47,7 @@ p.subheading-para {
     font-weight: 300;
 }
 
+
 /* Styles for text */
 h1, h2 {
     font-family: "Playfair Display", serif;
@@ -85,5 +86,5 @@ h5 {
 
 p {
     margin: 0 0 1em;
-    
+
 }
