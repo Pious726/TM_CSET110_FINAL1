@@ -27,6 +27,7 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 button.rounded {
     background: #f69314;
@@ -37,10 +38,6 @@ button.rounded {
     padding: 10px 30px;
     line-height: 1.5;
     cursor: pointer;
-}
-p.subheading-para {
-    font-size: 1.25em;
-    font-weight: 300;
 }
 
 
@@ -76,7 +73,10 @@ h5 {
 }
 p {
     margin: 0 0 1em;
-
+}
+p.subheading-para {
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
 
@@ -146,7 +146,7 @@ header ul.is-sticky li a.hover, header ul.is-sticky li a.active {
 
 /* Styles for header body */
 #header-body {
-    background-image: url('https://onclickwebdesign.com/wp-content/uploads/hero_1.jpg');
+    background-image: url();
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
