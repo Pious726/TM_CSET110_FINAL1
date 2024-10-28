@@ -148,7 +148,7 @@ nav ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 
 /* Styles for header body */
 #header-body {
-    background-image: url();
+    background-image: url('https://images.ctfassets.net/n2ifzifcqscw/6pSyF21jxmnhZH4JJbvSr/359446ae67d1c07b9a31c0e5b1891f22/Canva_-_Modern_home_with_swimming_pool.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -221,6 +221,10 @@ nav ul.is-sticky li a:hover, header ul.is-sticky li a.active {
 }
 #properties .content {
     position: relative;
+}
+#properties img {
+    width: 600px;
+    height: 150px;
 }
 #properties .content:before {
     content: "/";
@@ -716,6 +720,9 @@ footer small {
 @media (max-width: 500px) {
     #header #hero-text {
         width: 330px;
+    }
+    #properties img {
+        height: 220px;
     }
     #agents {
         margin: 4rem 0 3rem;
